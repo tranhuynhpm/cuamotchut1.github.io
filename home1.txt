@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<title>CỦA MỘT CHÚT</title>
+<style>
+* {box-sizing: border-box;}
+
+body {margin: 0;}
+
+/* Style the header */
+.header {
+  font-size: 3.5em; /* 50px/16=3.5em */
+  font-family: "Sofia", sans-serif; 
+  text-align: center;
+}
+
+p1,p2,p3,h3,h4{font-family: 'Courier New', monospace;
+  font-size: 18px;
+  color: gray;
+  text-align: left;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #4CAF50;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #A0DAA9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.pagination {
+  display: inline-block; text-align: right;
+}
+
+.pagination a {
+  color: #E9897E;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 2px solid #A0DAA9;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50;
+}
+</style>
+</head>
+
+<body>
+<body style="background-color:#ffece0;">
+  
+<div class="pagination">
+  <a href="home1.html" class="active">Giới Thiệu</a></li>
+  <a href="Co.html">Cỏ</a></li>
+  <a href="Hoa.html">Hoa</a></li>
+  <a href="Lienhe.html">Liên hệ</a></li>
+  </div> 
+  
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+ <h1 style="color:# F7CAC9;">Xin Chào!</h1>
+  <h2><b>MỘT CHÚT "THƠ THẨN"</b></h2>
+  <p>Rất vui khi bạn tìm đến <span class="w3-tag">love</span></p>
+</header>
+
+<div class="content">
+  <p1>Đôi Lời</p1>
+  <br>
+  <p2>Chiếc web đầu tiên được ra đời vào những giây phút cuối cùng của năm 2022. Có lẽ nơi đây đang đánh dấu hành trình mới của tôi...
+Lý do mà tôi "sản xuất" ra trang web này vì đây là một bài tập lớn (năm học kỳ 1 năm 3 ở trường ĐH.
+Nếu là bạn, bạn sẽ cho tôi bao nhiêu điểm nhỉ?^^... Tôi chỉ mong bạn có thật nhiều niềm vui và cùng chia sẻ với tôi những điều xinh đẹp ở cuộc sống này nhé.</p2>
+<br>
+<br>
+</div>
+
+<br>
+      <div class="comment">
+        <h3>Chia sẻ cùng nhau là hạnh phúc</h3>
+        <h4>
+        <form>
+        <input type="text" placeholder="Viết vào đây nhé..." />
+          <button>Send</button>
+        </form>
+        </h4>
+        </div>
+<div style="padding-left:8px">
+        <audio controls autoplay loop preload="auto">
+            <source src="nhac/=Thánh ca 073  Piano instrumental hymn.ogg" type="audio/ogg">
+            <source src="nhac/Thánh ca 073  Piano instrumental hymn.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+<br>
+
+<p3>Tiếp/Quay lại:</p3>
+  <div class="pagination">
+  <a href="#">❮</a>
+  <a href="#">❯</a>
+  </div>
+<br>
+</div>
+</body>
+</html>

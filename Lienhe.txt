@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+<title>CỦA MỘT CHÚT</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  font-size: 3.5em; /* 50px/16=3.5em */
+  font-family: "Sofia", sans-serif; 
+  text-align: center;
+}
+
+p1,p2,p3,h3,h4{font-family: 'Courier New', monospace;
+  font-size: 18px;
+  color: gray;
+  text-align: left;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #4CAF50;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #A0DAA9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.pagination {
+  display: inline-block; text-align: right;
+}
+
+.pagination a {
+  color: #E9897E;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 2px solid #A0DAA9;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50;
+}
+</style>
+</head>
+
+<body>
+<p style="background-image: url('hong.jpg');">
+
+  <div class="pagination">
+  <a href="home1.html">Giới Thiệu</a></li>
+  <a href="Co.html">Cỏ</a></li>
+  <a href="Hoa.html">Hoa</a></li>
+  <a href="Lienhe.html" class="active">Liên Hệ</a></li>
+  </div> 
+  
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+ <h1 style="color:# F7CAC9;">Xin Chào!</h1>
+  <h2><b>MỘT CHÚT "THƠ THẨN"</b></h2>
+  <p>Rất vui khi bạn tìm đến <span class="w3-tag">love</span></p>
+</header>
+
+<div class="content">
+  <p1>Thông Tin Liên Hệ</p1>
+  <br>
+  <p2>Họ Tên: Huỳnh Lê Trân</p2><br>
+  <p2>MSSV: 2012256</p2><br>
+<br>
+</div>
+
+<br>
+<div style="padding-left:8px">
+        <audio controls autoplay loop preload="auto">
+            <source src="nhac/=Thánh ca 073  Piano instrumental hymn.ogg" type="audio/ogg">
+            <source src="nhac/Thánh ca 073  Piano instrumental hymn.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+<br>
+
+<p3>Tiếp/Quay lại:</p3>
+  <div class="pagination">
+  <a href="#">❮</a>
+  <a href="#">❯</a>
+  </div>
+<br>
+</div>
+</body>
+</html>

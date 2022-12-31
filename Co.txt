@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cỏ</title>
+<link rel="stylesheet" href="">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+html{
+    background: url("https://i.pinimg.com/originals/e8/9d/71/e89d716bba8f2e448a3124eedce9267c.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+* {box-sizing: border-box;}
+body {margin: 0;}
+
+/* Style the header */
+.header {
+  font-size: 3.5em; /* 50px/16=3.5em */
+  font-family: "Sofia", sans-serif; 
+  text-align: center; color: #C71585;
+}
+p4{font-family: 'Courier New', monospace;  font-size: 18px;
+  color: gray;}
+p,p1,p2,p3,h3,h4{font-family: 'Courier New', monospace;
+  font-size: 18px;
+  color: black;
+  text-align: left;
+}
+pre{color: gray;
+  text-align: right;}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #FA8072;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FA8072;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: #FA8072;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 2px solid #A0DAA9;
+}
+
+.pagination a.active {
+  background-color: #FA8072;
+  color: white;
+  border: 2px solid #FFE4E1;}
+</style>
+</head>
+
+<body>
+ <div class="pagination">
+            <a  href="home1.html">Giới thiệu</a></li>
+            <a class="active" href="Co.html">Cỏ</a>
+            <a href="Hoa.html">Hoa</a></li>
+            <a href="Lienhe.html">Liên hệ</a></li>
+        </div>
+        <!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+ <h1 style="color:#FDF5E6;">CỎ...</h1>
+<p4>Rất vui khi bạn tìm đến <span class="w3-tag">love</span></p4>
+<div class="content">
+<p>"Thế nên tốt nhất hãy cứ làm người bình thường vì "cây cao thì gió, sông sâu thì bão", còn cây cỏ, dù có đốt thì nó vẫn mọc lại. Cứ làm cỏ đi, làm sỏi đá đi, để đời sau ta cần có nhau."-KL.</p>
+</div>
+<br>
+<p2>Tôi ấn tượng câu nói này vì "Cỏ" cũng làm đẹp cho cuộc sống, tạo một mảng xanh nhìn vào đã cảm thấy dễ chịu, mát mẻ. Ngoài ra "Cỏ" mang vóc dáng nhỏ nhắn, mỏng manh nhưng ung dung trước gió, mưa hay cả bão...<br></p2>
+<pre>"Weeds are flowers too, once you get to know them." <br> continue...</pre>
+
+<div class="comment">
+        <h3>Chia sẻ cùng nhau là hạnh phúc</h3>
+        <h4>
+        <form>
+        <input type="text" placeholder="Viết vào đây nhé..." />
+          <button>Send</button>
+        </form>
+        </h4>
+        </div>
+<div style="padding-left:8px">
+           <audio controls autoplay loop preload="auto">
+            <source src="nhac/=Nắng thuỷ tinh GEN Z VÀ TRỊNH  lấy cảm hứng từ Trịnh Công Sơn  Em Và Trịnh.ogg" type="audio/ogg">
+            <source src="nhac/Nắng thuỷ tinh GEN Z VÀ TRỊNH  lấy cảm hứng từ Trịnh Công Sơn  Em Và Trịnh.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+<br>
+<p3>Tiếp/Quay lại:</p3> <br>
+  <div class="pagination">
+  <a href="#">❮</a>
+  <a href="#">❯</a>
+  </div>
+</div>
+</body>
+</html>
